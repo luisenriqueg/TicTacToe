@@ -10,7 +10,6 @@ which means it has been done this way deliberately.
 
 Despite of being platform specific (Visual Studio) it is easily modifiable to be multiplatform supported
 
-
 It's a fairly simple customazation of the well known tictactoe Game
 
 Characteristics:
