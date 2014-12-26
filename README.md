@@ -12,9 +12,7 @@ It's a fairly simple customazation of the well known tictactoe Game
 
 Characteristics:
 =========
-Allows more than 2 players
-Each player selects it's own symbol rather than only 'X' and 'O'
-Select size of the board nxm matrix from 3x3 to 10x10
-and choose the number of marks in order to win
-
-
+* Allows more than 2 players
+* Each player selects it's own symbol rather than only 'X' and 'O'
+* Select size of the board nxm matrix from 3x3 to 10x10
+* and choose the number of marks in order to win
