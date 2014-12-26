@@ -2,9 +2,10 @@ TicTacToe
 =========
 ### Motivation:
 
-This was created upon motivation of a challenge in a series of tutorials in youtube.
+This was created upon motivation of a challenge in a series of videos in youtube.
+The one shown in the video was limited, in this code I extend some functionalities.
 
-It was mostly developed to learn how to work with different files and classes in C++,
+This was mostly developed to learn how to work with different files and classes in C++,
 thus some of the functionality of some classes could have been achieved in a single main,
 which means it has been done this way deliberately.
 
