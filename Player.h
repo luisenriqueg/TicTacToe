@@ -4,8 +4,8 @@ using namespace std;
 class Player
 {
 private:
-	string name;
-	char symbol;
+	string m_name;
+	char m_symbol;
 public:
 	Player();
 	void setPlayerName(string);

@@ -3,15 +3,15 @@
 
 Player::Player()
 {
-	this->name = "unknown";
+	m_name = "unknown";
 }
 
 void Player::setPlayerName(string name){
-	this->name = name;
+	m_name = name;
 }
 
 void Player::setPlayerSymbol(char symbol){
-	this->symbol = symbol;
+	m_symbol = symbol;
 }
 
 string Player::getPlayerName(){
