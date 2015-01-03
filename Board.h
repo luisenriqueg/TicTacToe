@@ -1,4 +1,5 @@
-#pragma once
+#ifndef BOARD_H
+#define BOARD_H
 class Board
 {
 private:
@@ -16,3 +17,4 @@ public:
 	bool modifyBoard(int x, int y, char c);
 	bool hasWon(int markersWin, char playerSymb);
 };
+#endif

@@ -15,9 +15,9 @@ void Player::setPlayerSymbol(char symbol){
 }
 
 string Player::getPlayerName(){
-	return name;
+	return m_name;
 }
 
 char Player::getPlayerSymbol(){
-	return symbol;
+	return m_symbol;
 }

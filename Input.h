@@ -1,4 +1,5 @@
-#pragma once
+#ifndef INPUT_H
+#define INPUT_H
 #include "Board.h"
 #include "Player.h"
 class Input
@@ -12,3 +13,4 @@ public:
 	void InputTurns(Board &board, Player player, char &symbol);
 	int getnumPlayers();
 };
+#endif
