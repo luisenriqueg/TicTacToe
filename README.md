@@ -9,8 +9,6 @@ This was mostly developed to learn how to work with different files and classes 
 thus some of the functionality of some classes could have been achieved in a single main,
 which means it has been done this way deliberately.
 
-Despite of being platform specific (Visual Studio) it is easily modifiable to be multiplatform supported
-
 It's a fairly simple customazation of the well known tictactoe Game
 
 Characteristics:
