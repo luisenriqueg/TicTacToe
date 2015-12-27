@@ -71,8 +71,17 @@ void Input::InputTurns(Board &board, Player player, char &symbol){
 	cout << player.getPlayerName() << "'s Turn!\n";
 	do
 	{
-		cout << "Enter (X,Y) coordinates: ";
-		cin >> xcoord >> ycoord;
+		cout << "Enter (X Y) coordinates: ";
+		while(true){
+			if(!(cin >> xcoord >> ycoord)){
+				cout << "Enter a valid input (e.g: 1 2)\n";
+				cin.clear();
+				cin.ignore(10000, '\n');
+			}
+			else{
+				break;
+			}
+		}
 		symbol = player.getPlayerSymbol();
 	} while (!board.modifyBoard(xcoord, ycoord, symbol));
 
